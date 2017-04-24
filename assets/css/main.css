@@ -1,0 +1,48 @@
+*{
+  text-transform: uppercase;
+  font-style:Helvetica;
+  margin: 0px;
+  text-align: center;
+}
+
+header{
+  position: relative;/*Hace que nuestro menu este fijo*/
+  background: pink;
+  width: 100%;
+}
+.menu{
+  margin:14px 62px
+  overflow:auto;/*Para que elcontenido caba dentro del elemento*/
+}
+
+.link{
+    font-weight: bold;
+    padding: 23px;
+    display: inline-block;
+    font-size: 19px;
+    text-decoration: none;
+    left: 70px;
+}
+
+.logo{
+  position: relative;
+  width: 100%;
+}
+
+.box_content span{
+    position: relative;
+    background-color: rgba(233, 30, 99, 0.52);
+    width: 100%;
+    height: 30px;
+    border-radius: 43px;
+}
+
+span{
+  position:absolute;
+  top: 50px;
+  display: inline;
+  padding: 13px;
+  color: black;
+  margin-left: 40px;
+  font-weight: bolder;
+}
